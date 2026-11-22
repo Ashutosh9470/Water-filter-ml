@@ -1,0 +1,12 @@
+{
+    "model": "Linear Regression",
+    "dataset": "SYNTHETIC",
+    "training_observations": 2796,
+    "testing_observations": 650,
+    "training_cartridges": 40,
+    "testing_cartridges": 10,
+    "MAE_days": 29.5579,
+    "RMSE_days": 37.3674,
+    "R2": 0.8439,
+    "MAPE_percent": 35.9094
+}

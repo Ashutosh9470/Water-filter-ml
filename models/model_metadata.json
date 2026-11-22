@@ -1,0 +1,29 @@
+{
+    "project": "HORIZON",
+    "model": "Random Forest Regressor",
+    "model_type": "SYNTHETIC_PROTOTYPE",
+    "dataset": "synthetic_filter_data.csv",
+    "observations": 3446,
+    "cartridges": 50,
+    "features": [
+        "age_days",
+        "cumulative_litres",
+        "daily_litres",
+        "inlet_tds",
+        "outlet_tds",
+        "tank_tds",
+        "temperature",
+        "tds_rejection_pct",
+        "tds_difference",
+        "tds_ratio",
+        "usage_per_day"
+    ],
+    "target": "remaining_days",
+    "estimators": 300,
+    "max_depth": 12,
+    "random_state": 42,
+    "validation": "5-fold GroupKFold by cartridge",
+    "pooled_cv_mae_days": 30.6316,
+    "pooled_cv_rmse_days": 40.9466,
+    "pooled_cv_r2": 0.8379
+}
